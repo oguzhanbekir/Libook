@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anaekran"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.oguzh.libook.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="210dp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/okulNo" />
+
+    <EditText
+        android:id="@+id/et_RokulNumara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:inputType="text"
+        android:textColorHint="@android:color/background_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/eMail" />
+
+    <EditText
+        android:id="@+id/et_Remail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/background_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/bolum" />
+
+    <EditText
+        android:id="@+id/et_Rbolum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:inputType="text"
+        android:textColorHint="@android:color/background_light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/parola" />
+
+    <EditText
+        android:id="@+id/et_Rparola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btn_RGiris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_enter"
+        android:text="Kayıt Ol"
+        android:textColor="@android:color/background_light" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/kayit"
+        android:layout_marginLeft="2dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_girisDon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:text="@string/kayit1"
+            android:textColor="@android:color/background_light"
+            android:textSize="13sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:text="@string/kayit2"
+            android:textColor="@android:color/background_light"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

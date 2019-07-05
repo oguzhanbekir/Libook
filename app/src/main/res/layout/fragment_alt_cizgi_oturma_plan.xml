@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_Cizgi"
+        android:layout_width="116dp"
+        android:layout_height="3dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/fl_container"
+        android:layout_width="0dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Cizgi">
+
+        <TextView
+            android:id="@+id/tv_Ustyazi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:text="Lütfen oturmak istediğiniz yeri seçiniz"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_101"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+
+            android:background="@android:color/holo_green_dark"
+            android:text="101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Ustyazi" />
+
+        <Button
+            android:id="@+id/btn_102"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="102"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_101"
+            app:layout_constraintStart_toEndOf="@+id/btn_101" />
+
+        <Button
+            android:id="@+id/btn_103"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="103"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_101" />
+
+        <Button
+            android:id="@+id/btn_104"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="104"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_103"
+            app:layout_constraintStart_toEndOf="@+id/btn_103" />
+
+        <Button
+            android:id="@+id/btn_105"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="105"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_103" />
+
+        <Button
+            android:id="@+id/btn_106"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="106"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_105"
+            app:layout_constraintStart_toEndOf="@+id/btn_105" />
+
+        <Button
+            android:id="@+id/btn_107"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="107"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_105" />
+
+        <Button
+            android:id="@+id/btn_108"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="108"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_107"
+            app:layout_constraintStart_toEndOf="@+id/btn_107" />
+
+        <Button
+            android:id="@+id/btn_109"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="109"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_110"
+            app:layout_constraintEnd_toStartOf="@+id/btn_110" />
+
+        <Button
+            android:id="@+id/btn_110"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="110"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Ustyazi" />
+
+        <Button
+            android:id="@+id/btn_111"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="111"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_112"
+            app:layout_constraintEnd_toStartOf="@+id/btn_112" />
+
+        <Button
+            android:id="@+id/btn_112"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="112"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_110" />
+
+        <Button
+            android:id="@+id/btn_113"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="113"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_114"
+            app:layout_constraintEnd_toStartOf="@+id/btn_114" />
+
+        <Button
+            android:id="@+id/btn_114"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="40dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="114"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_112" />
+
+        <Button
+            android:id="@+id/btn_115"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="115"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_116"
+            app:layout_constraintEnd_toStartOf="@+id/btn_116" />
+
+        <Button
+            android:id="@+id/btn_116"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="116"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_114" />
+
+        <Button
+            android:id="@+id/btn_bos"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+
+            android:layout_marginTop="36dp"
+            android:background="@android:color/holo_green_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_107" />
+
+
+        <Button
+            android:id="@+id/btn_dolu"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/colorRed"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_Müsait"
+            app:layout_constraintStart_toEndOf="@+id/tv_Müsait" />
+
+
+        <TextView
+            android:id="@+id/tv_Müsait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Müsait"
+            android:textSize="12sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_bos"
+            app:layout_constraintStart_toEndOf="@+id/btn_bos" />
+
+        <TextView
+            android:id="@+id/tv_dolu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Dolu"
+            android:textSize="12sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_dolu"
+            app:layout_constraintStart_toEndOf="@+id/btn_dolu" />
+
+        <Button
+            android:id="@+id/btn_Secili"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/colorBlue"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_dolu"
+            app:layout_constraintStart_toEndOf="@+id/tv_dolu" />
+
+
+        <TextView
+            android:id="@+id/tv_Secili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Seçili"
+            android:textSize="12sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btn_Secili"
+            app:layout_constraintStart_toEndOf="@+id/btn_Secili" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/fl_container2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fl_container">
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LiBook</string>
+    <string name="girisaltyazi">LiBook (Library Booking System - Kütüphane Bildirim Sistemi
+    Uygulama üzerinden kendi üniversitenizin kütüphane oturma
+    planını görüp check-inn yapabileceğiniz bir uygulamadır.</string>
+    <string name="kaydol">Hesabınız yok mu? </string>
+    <string name="kaydol1"><u><b> Kayıt Ol </b></u></string>
+    <string name="okulNo">Okul Numaranız </string>
+    <string name="eMail">E-Mail </string>
+    <string name="bolum">Okuduğunuz Bölüm </string>
+    <string name="parola">Parola</string>
+    <string name="kayit">Daha önce kayıt olduysanız,</string>
+    <string name="kayit1"><u><b> oturum açma </b></u></string>
+    <string name="kayit2">sayfasına gidiniz.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

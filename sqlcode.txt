@@ -1,0 +1,10 @@
+UPDATE koltuk
+INNER JOIN checkinn ON koltuk.id_koltuk = checkinn.id_koltuk
+SET koltuk.checkinn_id = checkinn.checkinn_id;
+
+UPDATE koltuk
+INNER JOIN checkinn ON koltuk.id_koltuk = checkinn.id_koltuk
+SET koltuk.checkinn_id = '0'
+WHERE checkinn.saat < now() - interval 5 minute;
+
+DELETE from checkinn where saat < now() - interval 5 minute;
